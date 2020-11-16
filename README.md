@@ -1,3 +1,5 @@
+结果示意图可在resultPhoto文件夹进行查看
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
