@@ -38,7 +38,26 @@ export const LoginInput = styled.input`
   width: 80%;
   height: 40px;
   border: none;
+  &.error {
+    outline: 1px solid red;
+  }
   outline: none;
+`;
+
+export const Tip = styled.div`
+  width: 80%;
+  margin-left: 17%;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 18px;
+  color: red;
+  &.hidden {
+    display: none;
+  }
+  &.show {
+    display: block;
+  }
 `;
 
 export const Button = styled.button`
